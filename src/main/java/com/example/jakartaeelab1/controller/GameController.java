@@ -67,5 +67,10 @@ public class GameController {
 
     }
 
+    @PUT
+    public void updateGame(@QueryParam("id") Long id, @QueryParam("name") String name) {
+        repository.update(id, name);
+    }
+
 }
 

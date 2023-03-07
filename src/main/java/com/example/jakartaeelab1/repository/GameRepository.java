@@ -41,4 +41,9 @@ public class GameRepository {
         query.setParameter("name",name);
         return  (List<Game>) query.getResultList();
     }
+
+    public void update(Long id, String name) {
+        var game = findOne(id);
+        game.ifPresent((m) -> m.setName(name));
+    }
 }
