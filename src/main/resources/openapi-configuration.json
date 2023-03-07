@@ -1,0 +1,13 @@
+
+{
+  "resourcePackages": [
+    "com.example.jakartaee-Labb1.controller"
+  ],
+  "openAPI": {
+    "info": {
+      "version": "v1.0",
+      "title": "Jax-RS sample",
+      "description": "This is a sample application written with Jakarta EE 10 and using swagger for documentation"
+    }
+  }
+}
